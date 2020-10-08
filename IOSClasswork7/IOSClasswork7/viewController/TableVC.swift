@@ -34,11 +34,11 @@ class TableVC: UITableViewController {
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-        
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! designCell
 
         // Configure the cell...
-        cell.textLabel?.text = moviesData[indexPath.row].movieName
+        let movie =  moviesData[indexPath.row]
+        cell.MovieImage.image = UIImage(named: movie.movieName)
         return cell
     }
     

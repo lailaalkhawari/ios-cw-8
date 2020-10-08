@@ -15,6 +15,7 @@
 		048ADAEA2490F9C400AB3BA5 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048ADAE92490F9C400AB3BA5 /* MovieDetailsViewController.swift */; };
 		048ADAEC2490F9F900AB3BA5 /* MoviesDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048ADAEB2490F9F900AB3BA5 /* MoviesDataModel.swift */; };
 		2220FAAC252E24470024E8A5 /* TableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2220FAAB252E24470024E8A5 /* TableVC.swift */; };
+		2220FABC252F29530024E8A5 /* designCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2220FABB252F29530024E8A5 /* designCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		048ADAE92490F9C400AB3BA5 /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
 		048ADAEB2490F9F900AB3BA5 /* MoviesDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesDataModel.swift; sourceTree = "<group>"; };
 		2220FAAB252E24470024E8A5 /* TableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableVC.swift; sourceTree = "<group>"; };
+		2220FABB252F29530024E8A5 /* designCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = designCell.swift; path = IOSClasswork7/Storyboard/designCell.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 		048ADAED2490FA0A00AB3BA5 /* viewController */ = {
 			isa = PBXGroup;
 			children = (
+				2220FABB252F29530024E8A5 /* designCell.swift */,
 				048ADAE92490F9C400AB3BA5 /* MovieDetailsViewController.swift */,
 				2220FAAB252E24470024E8A5 /* TableVC.swift */,
 			);
@@ -171,6 +174,7 @@
 				048ADAEC2490F9F900AB3BA5 /* MoviesDataModel.swift in Sources */,
 				048ADAEA2490F9C400AB3BA5 /* MovieDetailsViewController.swift in Sources */,
 				048ADAD2248EF04400AB3BA5 /* AppDelegate.swift in Sources */,
+				2220FABC252F29530024E8A5 /* designCell.swift in Sources */,
 				2220FAAC252E24470024E8A5 /* TableVC.swift in Sources */,
 				048ADAD4248EF04400AB3BA5 /* SceneDelegate.swift in Sources */,
 			);
